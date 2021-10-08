@@ -1,0 +1,124 @@
+## General MATE Settings
+
+[org.mate.interface]
+enable-animations=false
+gtk-theme='Matcha-dark-pueril'
+icon-theme='Papirus-MATE-Dark'
+document-font-name='Fira Code Medium 10'
+font-name='Fira Code Medium 10'
+monospace-font-name='Fira Code Medium 10'
+
+[org.mate.Marco.general]
+theme='Matcha-dark-pueril'
+titlebar-font='Fira Code Bold 10'
+compositing-fast-alt-tab=false
+compositing-manager=true
+
+[org.mate.background]
+picture-filename='/usr/share/backgrounds/freaxmate-backgrounds/patrick-tomasso-5hvn-2WW6rY-unsplash.jpg'
+picture-options='zoom'
+
+[org.mate.peripherals-mouse]
+cursor-theme='xcursor-breeze-snow'
+
+[org.mate.peripherals-touchpad]
+tap-to-click=true 
+
+[org.mate.NotificationDaemon]
+theme='coco'
+popup-location='top_right'
+
+[org.mate.screensaver]
+picture-filename='/usr/share/backgrounds/freaxmate-backgrounds/patrick-tomasso-5hvn-2WW6rY-unsplash-blur.jpg'
+
+[org.mate.sound]
+event-sounds=false
+
+[org.mate.calc]
+show-history=true
+
+
+
+## MATE Panel
+
+[org.mate.panel]
+default-layout='default-FreaxMATE-tweak'
+
+## MATE Applications
+
+# Caja
+
+[org.mate.caja.window-state]
+start-with-sidebar=true
+start-with-toolbar=true
+start-with-status-bar=true
+
+[org.mate.caja.preferences]
+thumbnail-limit=1073741824
+
+[org.mate.caja.desktop]
+computer-icon-visible=false
+home-icon-visible=false
+trash-icon-visible=false
+volumes-visible=false
+
+[org.mate.caja.icon-view]
+captions=['size', 'date_modified', 'permissions']
+
+# Pluma
+[org.mate.pluma]
+active-plugins=['wordcompletion', 'docinfo', 'terminal', 'sourcecodebrowser', 'codecomment', 'filebrowser', 'modelines', 'time', 'spell']
+auto-indent=false
+background-pattern='none'
+bottom-panel-visible=true
+side-pane-visible=true
+bracket-matching=true
+color-scheme='FreaxMATE'
+display-line-numbers=true
+display-overview-map=false
+insert-spaces=true
+syntax-highlighting=true
+tabs-size=4
+
+# Terminal
+[org.mate.terminal.profile:/org/mate/terminal/profiles/default/]
+scrollback-unlimited=true
+
+
+
+## Applications
+
+# Celluloid
+[io.github.celluloid-player.Celluloid]
+csd-enable=false
+
+# Rhythmbox
+[org.gnome.rhythmbox.plugins]
+active-plugins=['iradio', 'mpris', 'android', 'notification', 'audiocd', 'mtpdevice', 'daap', 'mmkeys', 'dbus-media-server', 'generic-player', 'audioscrobbler', 'rb', 'alternative-toolbar', 'artsearch', 'power-manager']
+
+[org.gnome.rhythmbox.plugins.alternative_toolbar]
+display-type=2
+enhanced-sidebar=true
+
+# Volctl
+[apps.volctl:/apps/volctl/]
+mixer-command='mate-volume-control'
+osd-enabled=false
+prefer-gtksi=false
+show-percentage=true
+
+
+
+## Other Components
+
+[com.solus-project.brisk-menu]
+favourites=['firefox.desktop', 'mate-terminal.desktop', 'caja-browser.desktop']
+pinned-shortcuts=['matecc.desktop', 'org.manjaro.pamac.manager.desktop']
+
+[x.dm.slick-greeter]
+background='/usr/share/backgrounds/freaxmate-backgrounds/patrick-tomasso-5hvn-2WW6rY-unsplash-blur.jpg'
+theme-name='Matcha-dark-pueril'
+icon-theme-name='Papirus-MATE-Dark'
+font-name='Fira Code Medium 10'
+
+

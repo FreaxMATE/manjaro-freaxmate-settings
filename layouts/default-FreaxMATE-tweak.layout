@@ -1,0 +1,80 @@
+[Toplevel top]
+enable-buttons=false
+size=24
+screen=0
+monitor=0
+expand=true
+orientation=top
+
+[Toplevel bottom]
+enable-buttons=false
+size=24
+screen=0
+monitor=0
+expand=true
+orientation=bottom
+
+[Object menu-bar]
+locked=true
+toplevel-id=top
+position=0
+object-type=menu-bar
+applet-iid=
+panel-right-stick=false
+
+[Object object-1]
+locked=true
+toplevel-id=top
+position=20
+object-type=applet
+applet-iid=WnckletFactory::WorkspaceSwitcherApplet
+panel-right-stick=true
+
+[Object notification-area]
+locked=true
+toplevel-id=top
+position=10
+object-type=applet
+applet-iid=NotificationAreaAppletFactory::NotificationArea
+panel-right-stick=true
+
+[Object clock]
+locked=true
+toplevel-id=top
+position=0
+object-type=applet
+applet-iid=ClockAppletFactory::ClockApplet
+panel-right-stick=true
+
+[Object show-desktop]
+locked=true
+toplevel-id=bottom
+position=0
+object-type=applet
+applet-iid=WnckletFactory::ShowDesktopApplet
+panel-right-stick=false
+
+[Object object-3]
+locked=true
+toplevel-id=bottom
+position=10
+object-type=applet
+applet-iid=MateMenuAppletFactory::MateMenuApplet
+panel-right-stick=false
+
+[Object window-list]
+locked=true
+toplevel-id=bottom
+position=20
+object-type=applet
+applet-iid=WnckletFactory::WindowListApplet
+panel-right-stick=false
+
+[Object object-2]
+locked=true
+toplevel-id=bottom
+position=0
+object-type=applet
+applet-iid=TrashAppletFactory::TrashApplet
+panel-right-stick=true
+
