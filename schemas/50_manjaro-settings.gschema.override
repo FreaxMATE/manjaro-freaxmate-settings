@@ -13,6 +13,7 @@ theme='Matcha-dark-pueril'
 titlebar-font='Fira Code Bold 10'
 compositing-fast-alt-tab=false
 compositing-manager=true
+num-workspaces=6
 
 [org.mate.background]
 picture-filename='/usr/share/backgrounds/freaxmate-backgrounds/patrick-tomasso-5hvn-2WW6rY-unsplash.jpg'
@@ -120,5 +121,5 @@ background='/usr/share/backgrounds/freaxmate-backgrounds/patrick-tomasso-5hvn-2W
 theme-name='Matcha-dark-pueril'
 icon-theme-name='Papirus-MATE-Dark'
 font-name='Fira Code Medium 10'
-
+draw-grid=true
 

@@ -1,0 +1,8 @@
+[Desktop Entry]
+Exec=freaxmate-config
+Name=freaxmate-config
+Comment=MATE postinstall config
+Type=Application
+Icon=applications-system
+StartupNotify=false
+X-GNOME-Autostart-enabled=true
