@@ -14,9 +14,6 @@ vu-enabled=true
 
 printf '%s\n' "$volctl_dconf" | dconf load /apps/volctl/
 
-# set standard shell to fish
-chsh -s /usr/bin/fish
-
 echo -e "export HISTCONTROL=ignoreboth:erasedups" >> /home/$USER/.bashrc
 
 gsettings set org.mate.panel.applet.window-list-previews:/org/mate/panel/objects/window-list/prefs/ show-window-thumbnails false
