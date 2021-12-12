@@ -4,6 +4,8 @@
 
 app=freaxmate-config
 
+mate-panel --reset
+
 dconf load / < /usr/share/manjaro-freaxmate-settings/shortcuts/marco-shortcuts.txt
 dconf load / < /usr/share/manjaro-freaxmate-settings/theming/terminal-palette.txt
 dconf load / < /usr/share/manjaro-freaxmate-settings/theming/multiload-applet-colors.txt
