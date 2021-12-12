@@ -1,0 +1,42 @@
+
+[org/mate/marco/global-keybindings]
+run-command-1='<Mod4>l'
+run-command-2='<Shift>Print'
+run-command-3='<Mod4>e'
+run-command-4='<Mod4>t'
+run-command-5='<Mod4>i'
+run-command-6='<Mod4>s'
+run-command-7='<Control><Shift>Escape'
+run-command-8='<Mod4>Pause'
+run-command-terminal='<Control><Alt>t'
+switch-panels='disabled'
+switch-windows='<Alt>Tab'
+switch-windows-backward='<Alt><Shift>Tab'
+
+[org/mate/marco/keybinding-commands]
+command-1='mate-screensaver-command --lock'
+command-2='mate-screenshot --area --interactive'
+command-3='caja'
+command-4='mate-terminal'
+command-5='mate-control-center'
+command-6='mate-search-tool'
+command-7='mate-system-monitor -p'
+command-8='mate-system-monitor -s'
+
+[org/mate/marco/window-keybindings]
+maximize='<Mod4>Up'
+unmaximize='<Mod4>Down'
+move-to-center='<Alt><Mod4>c'
+tile-to-corner-ne='<Alt><Mod4>Right'
+tile-to-corner-nw='<Alt><Mod4>Left'
+tile-to-corner-se='<Shift><Alt><Mod4>Right'
+tile-to-corner-sw='<Shift><Alt><Mod4>Left'
+tile-to-side-e='<Mod4>Right'
+tile-to-side-w='<Mod4>Left'
+toggle-shaded='<Control><Alt>s'
+
+[org/mate/desktop/keybindings/custom0]
+action='gnome-passwordsafe'
+binding='<Primary><Alt>s'
+name='Passwordsafe'
+

@@ -1,0 +1,13 @@
+[org/mate/terminal/profiles/default]
+background-color='#1C1C1C1C1C1C'
+background-darkness=0.93835616438356162
+background-type='transparent'
+bold-color='#E1E1B5B55C5C'
+bold-color-same-as-fg=false
+custom-command='fish'
+foreground-color='#B5B5A8A88382'
+palette='#6F6E30308181:#A8A820204544:#9C9CB5B54544:#E1E1B5B55C5C:#6F6E30308181:#6F6E30308181:#9393A1A1A1A1:#B5B5A8A88382:#6F6E30308181:#A8A820204544:#E1E1B5B55C5C:#9C9CB5B54544:#9C9CB5B54544:#6F6E30308181:#9392A1A0A1A0:#B5B5A8A88382'
+scrollback-unlimited=true
+use-custom-command=true
+use-theme-colors=false
+visible-name='Default'

@@ -25,9 +25,17 @@ panel-right-stick=false
 [Object object-1]
 locked=true
 toplevel-id=top
-position=20
+position=30
 object-type=applet
 applet-iid=WnckletFactory::WorkspaceSwitcherApplet
+panel-right-stick=true
+
+[Object object-2]
+locked=false
+toplevel-id=top
+position=20
+object-type=applet
+applet-iid=MultiLoadAppletFactory::MultiLoadApplet
 panel-right-stick=true
 
 [Object notification-area]
@@ -38,13 +46,13 @@ object-type=applet
 applet-iid=NotificationAreaAppletFactory::NotificationArea
 panel-right-stick=true
 
-[Object clock]
+[Object object-3]
+applet-iid=IndicatorAppletCompleteFactory::IndicatorAppletComplete
 locked=true
-toplevel-id=top
-position=0
 object-type=applet
-applet-iid=ClockAppletFactory::ClockApplet
 panel-right-stick=true
+position=0
+toplevel-id=top
 
 [Object show-desktop]
 locked=true
@@ -54,7 +62,7 @@ object-type=applet
 applet-iid=WnckletFactory::ShowDesktopApplet
 panel-right-stick=false
 
-[Object object-3]
+[Object object-4]
 locked=true
 toplevel-id=bottom
 position=10
@@ -70,7 +78,7 @@ object-type=applet
 applet-iid=WnckletFactory::WindowListApplet
 panel-right-stick=false
 
-[Object object-2]
+[Object object-5]
 locked=true
 toplevel-id=bottom
 position=0

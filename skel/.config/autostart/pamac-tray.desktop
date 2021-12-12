@@ -7,3 +7,5 @@ Type=Application
 StartupNotify=false
 NotShowIn=KDE;GNOME;
 X-MATE-Autostart-enabled=false
+Hidden=true
+
