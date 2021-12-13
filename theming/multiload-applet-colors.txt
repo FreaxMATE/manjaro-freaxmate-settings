@@ -1,4 +1,4 @@
-[org/mate/panel/objects/object-0/prefs]
+[org/mate/panel/objects/object-2/prefs]
 cpuload-color0='rgb(137,187,188)'
 cpuload-color1='rgb(137,187,188)'
 cpuload-color2='rgb(137,187,188)'
@@ -28,3 +28,4 @@ view-loadavg=false
 view-memload=true
 view-netload=true
 view-swapload=true
+

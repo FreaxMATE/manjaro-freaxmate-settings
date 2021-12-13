@@ -25,7 +25,7 @@ package() {
   install -d $pkgdir/usr/bin
   cp scripts/* $pkgdir/usr/bin
   install -d $pkgdir/usr/share/mate-panel
-  cp layouts/* $pkgdir/usr/share/mate-panel
+  cp -r layouts $pkgdir/usr/share/mate-panel
   install -d $pkgdir/usr/share/manjaro-freaxmate-settings
   cp -r shortcuts $pkgdir/usr/share/manjaro-freaxmate-settings
   cp -r theming $pkgdir/usr/share/manjaro-freaxmate-settings
