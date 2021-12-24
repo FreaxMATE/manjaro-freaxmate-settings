@@ -39,12 +39,29 @@ event-sounds=false
 show-history=true
 
 
-
 ## MATE Panel
 
 [org.mate.panel]
 default-layout='default-FreaxMATE-tweak'
 enable-sni-support=false
+
+
+## Ayatana
+
+[org.ayatana.indicator.datetime]
+show-calendar=true
+show-date=true
+show-day=true
+show-events=true
+show-week-numbers=true
+show-year=true
+
+[org.ayatana.indicator.notifications]
+filter-list=['Rhythmbox', 'NetworkManager']
+
+[org.ayatana.indicator.sound]
+interested-media-players=['firefox.desktop', 'rhythmbox.desktop', 'io.github.celluloid_player.Celluloid.desktop']
+
 
 ## MATE Applications
 
