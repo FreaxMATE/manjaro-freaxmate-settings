@@ -133,6 +133,7 @@ show-percentage=true
 [com.solus-project.brisk-menu]
 favourites=['firefox.desktop', 'mate-terminal.desktop', 'caja-browser.desktop']
 pinned-shortcuts=['matecc.desktop', 'org.manjaro.pamac.manager.desktop']
+rollover-activate=true
 
 [x.dm.slick-greeter]
 background='/usr/share/backgrounds/freaxmate-backgrounds/patrick-tomasso-5hvn-2WW6rY-unsplash-blur.jpg'
