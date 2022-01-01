@@ -42,7 +42,7 @@ show-history=true
 ## MATE Panel
 
 [org.mate.panel]
-default-layout='default-FreaxMATE-tweak'
+default-layout='gnome2'
 enable-sni-support=false
 
 
