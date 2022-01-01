@@ -29,6 +29,9 @@
 		<Exclude>
 			<Filename>redshift-gtk.desktop</Filename>
 		</Exclude>
+		<Exclude>
+			<Filename>mate-search-tool.desktop</Filename>
+		</Exclude>
 	</Menu>
 	<Menu>
 		<Name>Internet</Name>
