@@ -16,14 +16,6 @@ object-type=applet
 panel-right-stick=false
 locked=true
 
-[Object notification-area]
-object-type=applet
-applet-iid=NotificationAreaAppletFactory::NotificationArea
-toplevel-id=top
-position=10
-panel-right-stick=true
-locked=true
-
 [Object indicatorappletcomplete]
 object-type=applet
 applet-iid=IndicatorAppletCompleteFactory::IndicatorAppletComplete

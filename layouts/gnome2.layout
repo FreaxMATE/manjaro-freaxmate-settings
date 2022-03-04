@@ -22,14 +22,6 @@ object-type=menu-bar
 applet-iid=
 panel-right-stick=false
 
-[Object notification-area]
-locked=true
-toplevel-id=top
-position=10
-object-type=applet
-applet-iid=NotificationAreaAppletFactory::NotificationArea
-panel-right-stick=true
-
 [Object object-1]
 applet-iid=IndicatorAppletCompleteFactory::IndicatorAppletComplete
 locked=true
